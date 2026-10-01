@@ -1,0 +1,17 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/shivamsejwal/vscode/CAB403/shm_ipc'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _create_shared_object, symObjAddr: 0x0, symBinAddr: 0x10000366C, symSize: 0x168 }
+  - { offsetInCU: 0x4D, offset: 0x4D, size: 0x8, addend: 0x0, symName: _op_names, symObjAddr: 0x890, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0xA4, offset: 0xA4, size: 0x8, addend: 0x0, symName: _create_shared_object, symObjAddr: 0x0, symBinAddr: 0x10000366C, symSize: 0x168 }
+  - { offsetInCU: 0xDA, offset: 0xDA, size: 0x8, addend: 0x0, symName: _destroy_shared_object, symObjAddr: 0x168, symBinAddr: 0x1000037D4, symSize: 0x4C }
+  - { offsetInCU: 0xFE, offset: 0xFE, size: 0x8, addend: 0x0, symName: _request_work, symObjAddr: 0x1B4, symBinAddr: 0x100003820, symSize: 0x80 }
+  - { offsetInCU: 0x150, offset: 0x150, size: 0x8, addend: 0x0, symName: _get_shared_object, symObjAddr: 0x234, symBinAddr: 0x1000038A0, symSize: 0xE4 }
+  - { offsetInCU: 0x186, offset: 0x186, size: 0x8, addend: 0x0, symName: _do_work, symObjAddr: 0x318, symBinAddr: 0x100003984, symSize: 0x1E0 }
+  - { offsetInCU: 0x1BC, offset: 0x1BC, size: 0x8, addend: 0x0, symName: _next_rand, symObjAddr: 0x508, symBinAddr: 0x100003B74, symSize: 0x30 }
+  - { offsetInCU: 0x1D6, offset: 0x1D6, size: 0x8, addend: 0x0, symName: _next_op, symObjAddr: 0x538, symBinAddr: 0x100003BA4, symSize: 0x24 }
+  - { offsetInCU: 0x1F0, offset: 0x1F0, size: 0x8, addend: 0x0, symName: _controller_main, symObjAddr: 0x55C, symBinAddr: 0x100003BC8, symSize: 0x124 }
+  - { offsetInCU: 0x27D, offset: 0x27D, size: 0x8, addend: 0x0, symName: _worker_main, symObjAddr: 0x680, symBinAddr: 0x100003CEC, symSize: 0x74 }
+  - { offsetInCU: 0x2A3, offset: 0x2A3, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x6F4, symBinAddr: 0x100003D60, symSize: 0xA0 }
+...
